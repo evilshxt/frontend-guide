@@ -286,10 +286,11 @@ const activeUsers = users.filter(user => user.isActive)
 
 ### 5.1 General Styling Rules
 - **Consistency is paramount** — follow the project's design system
+- **Unless specified, use Tailwind CSS with className** — Resort to custom CSS only for complex animations or layout logic
 - Avoid inline styles unless absolutely necessary (dynamic values)
 - Use established styling methodology:
   - **CSS Modules** for component-scoped styles
-  - **Tailwind CSS** for utility-first approach
+  - **Tailwind CSS** for utility-first approach (default)
   - **Styled Components / Emotion** for CSS-in-JS
   - Use whichever is specified in the prompt
 
